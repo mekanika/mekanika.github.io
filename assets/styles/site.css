@@ -1,0 +1,58 @@
+
+html { overflow:hidden;}
+body {
+  background:#1c699e url('../images/bg.png') repeat-x;
+  padding:0;
+  margin:0;
+  font-family: "Helvetica Neue", Tahoma, sans-serif;
+}
+
+.title {
+  position:absolute;
+  top:20%;
+
+  background: url('../images/title.png') no-repeat center;
+  height: 208px;
+  width:100%;
+}
+
+.banner {
+  position:absolute;
+  text-align:center;
+  text-transform:uppercase;
+  height:80px;
+  width:100%;
+  background: rgba(255,255,255,0.051) url('../images/banner.png') -50%;
+  opacity:0.1;
+  top:55%;
+  color:#000;
+  line-height:80px;
+  font-size:24px;
+}
+
+.action {
+  position:absolute;
+  top:55%;
+  text-align:center;
+  width:100%;
+}
+
+.action button {
+  background:inherit;
+  padding:8px 16px;
+  border:1px solid rgba(255,255,255,0.3);
+  height:80px;
+}
+
+.action button:hover {
+  cursor:pointer;
+  background:rgba(0,0,0,0.1);
+}
+
+.imprint {
+  position:absolute;
+  bottom:16px;
+  left:16px;
+  color:rgba(255,255,255,0.1);
+  font-size:10pt;
+}
